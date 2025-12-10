@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Journal</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            background-color: gray  ;
+        }
+
+        
+        .box {
+            border: 2px solid black;  
+            padding: 10px;             
+            margin: 10px;              
+            background-color: white;   
+        }
+
+       
+        #header {
+            font-weight: bold;         
+            text-align: center;       
+        }
+
+       
+        #sidebar {
+            float: left;
+            width: 30%;
+        }
+
+       
+        #content {
+            float: right;
+            width: 65%;
+        }
+
+        
+        #footer {
+            clear: both;
+            text-align: center;
+            font-size: 14px;
+        }
+
+        
+        .highlight {
+            color: blue;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    
+    <div id="header" class="box">
+        <h1>My Journal</h1>
+        <p>Welcome to my simple journal page</p>
+    </div>
+
+    
+    <div id="sidebar" class="box">
+        <h2>Menu</h2>
+        <ul>
+            <li><span class="highlight">Home</span></li>
+            <li>Entries</li>
+            <li>About</li>
+        </ul>
+    </div>
+
+    
+    <div id="content" class="box">
+        <h2>Today's Entry</h2>
+        <p>
+            Today I practiced <span class="highlight">HTML</span> and <span class="highlight">CSS</span>.
+            I learned how to use borders, margins, and padding to make neat boxes.
+        </p>
+    </div>
+
+    
+</body>
+</html>
